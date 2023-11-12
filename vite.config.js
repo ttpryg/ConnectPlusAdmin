@@ -19,7 +19,18 @@ export default defineConfig({
     rollupOptions: {
         input: [
             'resources/index.html',
-            'resources/pages/about.html',
+            'resources/pages/chart/chartjs.html',
+            'resources/pages/forms/basic_elements.html',
+            'resources/pages/icons/mdi.html',
+            'resources/pages/samples/blank-page.html',
+            'resources/pages/samples/error-404.html',
+            'resources/pages/samples/error-500.html',
+            'resources/pages/samples/login.html',
+            'resources/pages/samples/register.html',
+            'resources/pages/tables/basic-table.html',
+            'resources/pages/ui-features/buttons.html',
+            'resources/pages/ui-features/dropdowns.html',
+            'resources/pages/ui-features/typography.html',
         ]
     }
   },
