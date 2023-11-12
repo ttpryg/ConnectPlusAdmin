@@ -17,7 +17,6 @@
     "moment": "^2.29.4",
     "morris.js": "^0.5.0",
     "nouislider": "^15.7.1",
-    "npm": "^10.2.3",
     "owl-carousel-2": "0.0.3",
     "perfect-scrollbar": "^1.5.5",
     "popper.js": "^1.15.0",
@@ -25,10 +24,11 @@
     "pwstabs": "^1.4.0"
   },
   "devDependencies": {
-    "vite": "^4.5.0"
+    "vite": "^4.5.0",
+    "vite-plugin-handlebars": "^1.6.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vite build"
   },
   "author": "bootstrapdash",
   "url": "http://www.bootstrapdash.com/",
