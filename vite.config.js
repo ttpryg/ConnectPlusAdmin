@@ -19,7 +19,7 @@ export default defineConfig({
     rollupOptions: {
         input: [
             'resources/index.html',
-            'resources/pages/chart/chartjs.html',
+            'resources/pages/charts/chartjs.html',
             'resources/pages/forms/basic_elements.html',
             'resources/pages/icons/mdi.html',
             'resources/pages/samples/blank-page.html',
